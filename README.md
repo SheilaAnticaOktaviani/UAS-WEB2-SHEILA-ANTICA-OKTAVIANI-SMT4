@@ -57,12 +57,28 @@ Aplikasi akan berjalan pada:
 http://localhost:8080
 ```
 # Dokumentasi Login
-<img width="955" height="435" alt="image" src="https://github.com/user-attachments/assets/c599d5bf-1edb-4eab-8aac-5e0f4e5d01b3" />
- 
+<img width="953" height="447" alt="image" src="https://github.com/user-attachments/assets/3b83e4f1-d90b-4500-9ee3-70ad32c3f83c" />
 
+# Tampilan Dashboard sebagai admin
+<img width="953" height="443" alt="image" src="https://github.com/user-attachments/assets/9bb3a54b-c93a-4dc6-bef4-fdbd6ae4d4f9" />
 
-    "username": "admin",
-    "password": "password"
+# Tampilan Dashboard sebagai user
+<img width="953" height="440" alt="image" src="https://github.com/user-attachments/assets/12882401-cff3-48a6-a600-67d23c49a23a" />
+
+# Tampilan ketika ingin membeli barang
+<img width="952" height="430" alt="image" src="https://github.com/user-attachments/assets/dd28f975-e431-41e0-8379-1db732c138c4" />
+
+# Tampilan Tambahkan barang baru
+<img width="951" height="441" alt="image" src="https://github.com/user-attachments/assets/5f3b5c83-9c71-4f0f-ace8-d98f3b6193e4" />
+
+# Login user 
+    "username : "budi"
+    "password: "password123"
+---
+
+# Login admin
+    "username": "admin"
+    "password": "admin123"
 
 ---
 
