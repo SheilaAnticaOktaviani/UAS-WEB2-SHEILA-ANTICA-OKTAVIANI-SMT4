@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Inventory UAS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800 antialiased">
+    <div id="app">
+        <nav class="bg-indigo-700 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <span class="font-bold text-white text-xl tracking-wider">📦 E-Inventory</span>
+                    <div class="flex space-x-4 items-center" :key="isLoggedIn">
+                    <router-link to="/dashboard" v-if="isLoggedIn" class="text-white hover:text-indigo-200 font-medium transition">Dashboard</router-link>
+                    <router-link to="/login" v-if="!isLoggedIn" class="bg-white text-indigo-700 px-5 py-2 rounded-md font-bold shadow hover:bg-gray-100 transition">Login Admin</router-link>
+                    <button v-if="isLoggedIn" @click="logout" class="bg-red-500 text-white px-5 py-2 rounded-md font-bold shadow hover:bg-red-600 transition">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="max-w-6xl mx-auto py-8 px-4">
+            <router-view></router-view>
+        </main>
+    </div>
+
+    <script src="assets/js/components/Login.js"></script>
+    <script src="assets/js/components/Dashboard.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
