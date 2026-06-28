@@ -80,6 +80,9 @@ http://localhost:8080
     "username": "admin"
     "password": "admin123"
 
+# Link Hosting Wesite 
+https://sensational-profiterole-734848.netlify.app/
+
 ---
 
 ### Data Barang
