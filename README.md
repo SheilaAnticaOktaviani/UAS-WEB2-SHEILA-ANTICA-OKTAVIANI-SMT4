@@ -60,25 +60,24 @@ http://localhost:8080
 <img width="953" height="447" alt="image" src="https://github.com/user-attachments/assets/3b83e4f1-d90b-4500-9ee3-70ad32c3f83c" />
 
 # Tampilan Dashboard sebagai admin
-<img width="953" height="443" alt="image" src="https://github.com/user-attachments/assets/9bb3a54b-c93a-4dc6-bef4-fdbd6ae4d4f9" />
+<img width="952" height="440" alt="image" src="https://github.com/user-attachments/assets/eebcc545-f464-4c72-bcf4-5e276a61e074" />
 
 # Tampilan Dashboard sebagai user
-<img width="953" height="440" alt="image" src="https://github.com/user-attachments/assets/12882401-cff3-48a6-a600-67d23c49a23a" />
+<img width="950" height="440" alt="image" src="https://github.com/user-attachments/assets/eee08ec3-fa99-4921-adcc-7d4c40be4ff0" />
 
 # Tampilan ketika ingin membeli barang
-<img width="952" height="430" alt="image" src="https://github.com/user-attachments/assets/dd28f975-e431-41e0-8379-1db732c138c4" />
+<img width="952" height="432" alt="image" src="https://github.com/user-attachments/assets/c5b1e36f-0098-41a6-8699-1ad26e131c98" />
 
 # Tampilan Tambahkan barang baru
-<img width="951" height="441" alt="image" src="https://github.com/user-attachments/assets/5f3b5c83-9c71-4f0f-ace8-d98f3b6193e4" />
+<img width="949" height="440" alt="image" src="https://github.com/user-attachments/assets/f652d3c9-1ffa-4aa6-b75b-a1c1bb328844" />
 
-# Login user 
     "username : "budi"
     "password: "password123"
 ---
 
 # Login admin
     "username": "admin"
-    "password": "admin123"
+    "password": "admin"
 
 # Link Hosting Wesite 
 https://sheilaantica.ct.ws/#/
